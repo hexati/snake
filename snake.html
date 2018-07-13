@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Змейка</title>
+    <style>
+        #container {
+            width: 400px;
+            height: 400px;
+            margin: 10px auto;
+        }
+
+        #score-container {
+            width: 40px;
+            height: 40px;
+            font-size: 20px;
+            border: 1px solid black;
+            margin: 10px auto;
+        }
+
+        #score-label {
+            width: 50px;
+            font-size: 20px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        #score_snake {
+            display: block;
+            text-align: center;
+            width: 100%;
+            margin: 8px 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <canvas id="snake_game" width="400px" height="400px"></canvas>
+    </div>
+
+    <div id="score-label">Счет</div>
+    <div id="score-container">
+        <span id ="score_snake">0</span>
+    </div>
+    <script src="snake_game.js"></script>
+
+</body>
+</html>
